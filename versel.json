@@ -1,9 +1,9 @@
 {
-  "routes": [
-    { "src": "/login", "dest": "/login" },
-    { "src": "/consulta-cotizaciones", "dest": "/consulta-cotizaciones" },
-    { "src": "/logs", "dest": "/logs" },
-    { "src": "/AdministracionProductos", "dest": "/AdministracionProductos" },
-    { "src": "/(.*)", "dest": "/" }
+  "rewrites": [
+    { "source": "/login", "destination": "/login" },
+    { "source": "/consulta-cotizaciones", "destination": "/consulta-cotizaciones" },
+    { "source": "/logs", "destination": "/logs" },
+    { "source": "/AdministracionProductos", "destination": "/AdministracionProductos" },
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
