@@ -1,5 +1,9 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+  "routes": [
+    { "src": "/login", "dest": "/login" },
+    { "src": "/consulta-cotizaciones", "dest": "/consulta-cotizaciones" },
+    { "src": "/logs", "dest": "/logs" },
+    { "src": "/AdministracionProductos", "dest": "/AdministracionProductos" },
+    { "src": "/(.*)", "dest": "/" }
   ]
 }
